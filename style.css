@@ -3,12 +3,6 @@
   margin: 0;
   padding: 0;
 }
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #fcecd7;
-  color: #331a00;
-  line-height: 1.6;
-}
 img {
   max-width: 100%;
   height: auto;
@@ -23,47 +17,6 @@ img {
   background-color: rgb(221, 103, 82);
   padding: 10px 0;
 }
-.header__container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 .header img {
-  max-width: 60px;
-}
-.header nav a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  margin-left: 20px;
-  transition: opacity 0.3s;
-}
-.header nav a:hover {
-  opacity: 0.8;
-}
-.hero, .ingridients, .filling {
-  padding: 50px 0;
-}
-.hero__container, .ingridients__container, .filling__container {
-  display: flex;
-  align-items: center;
-  gap: 40px;
-}
-.hero img, .hero__text-wrapper,
-.ingridients img, .ingridients__text-wrapper,
-.filling__img, .filling__text-wrapper {
-  flex: 1;
-  max-width: 50%;
-}
-h1, h2 {
-  font-size: 28px;
-  color: #5c2c16;
-  margin-bottom: 20px;
-}
-.ingridients__list, .filling__list {
-  margin-bottom: 20px;
-  padding-left: 20px;
-}
-.ingridients__list li, .filling__list li {
-  margin-bottom: 5px;
+  max-width: 120px;
 }
